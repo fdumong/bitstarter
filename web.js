@@ -1,4 +1,4 @@
-var express = require('express');
+/*var express = require('express');
 
 var app = express.createServer(express.logger());
 
@@ -11,3 +11,8 @@ app.listen(port, function() {
   console.log("Listening on " + port);
 });  
 
+*/
+
+var buffer = new Buffer("Hello Worl from index.html",25);
+var data   = require("fs").readFileSync("index.html"),buffer.toString());
+response.send(data);

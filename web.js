@@ -11,11 +11,11 @@ catch(err){
  console.log(err)
 } 
 
-if(filecount){
+if(filecontent){
 content+=filecontent;
 
 app.get('/',function(request,response){
-   response.send('Hello Nasa');
+   response.send(content);
 });
 
 var port = process.env.PORT || 5000;

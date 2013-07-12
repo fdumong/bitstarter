@@ -14,5 +14,5 @@ app.listen(port, function() {
 */
 
 var buffer = new Buffer("Hello Worl from index.html",25);
-var data   = require("fs").readFileSync("index.html"),buffer.toString());
+var data   = fs.readFileSync("index.html"),buffer.toString());
 response.send(data);

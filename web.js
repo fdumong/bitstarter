@@ -1,4 +1,4 @@
- /*var express = require('express');
+var express = require('express');
 
 var app = express.createServer(express.logger());
 
@@ -10,7 +10,4 @@ var port = process.env.PORT || 5000;
 app.listen(port, function() {
   console.log("Listening on " + port);
 });  
-*/
-var fs =require("fs")
-var index=require("index.html")
-fs.readFileSync(index)OCOCOC
+

@@ -12,5 +12,5 @@ app.listen(port, function() {
 });  
 */
 var fs =require("fs")
-
-fs.readFileSync(index.html)
+var index=require("index.html")
+fs.readFileSync(index)OCOCOC
